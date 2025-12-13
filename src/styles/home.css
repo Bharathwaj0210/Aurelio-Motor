@@ -1,0 +1,24 @@
+.home-info-section {
+  background: #111;
+  color: white;
+}
+
+.home-info-section h2 {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.home-info-section p {
+  color: #d4d9e3;
+}
+
+.hero-carousel img {
+  filter: brightness(0.78);
+}
+
+.carousel-caption h2 {
+  text-shadow: 0 0 14px rgba(0, 200, 255, 0.9);
+  font-size: 2.6rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}

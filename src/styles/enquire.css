@@ -1,0 +1,98 @@
+.enquire-bg {
+  background: url("./backdrop.png") center/cover no-repeat fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.enquire-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 30px 35px;
+  border-radius: 14px;
+
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  color: #e8eef7;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+}
+
+.form-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background: rgba(20, 20, 20, 0.55);
+  color: #f0f4ff;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #00a6f6;
+  outline: none;
+}
+
+.error {
+  border-color: #ff4d4d !important;
+}
+
+.form-group small {
+  color: #ff4d4d;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.success-message {
+  background: rgba(0, 140, 60, 0.3);
+  color: #baffc8;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background: #00a6f6;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #0085c4;
+  cursor: pointer;
+}

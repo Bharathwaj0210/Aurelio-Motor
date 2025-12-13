@@ -1,0 +1,162 @@
+/* Container */
+.model-details-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 25px 40px;
+  background-color: #12181f;
+  color: #e0e8f3;
+  font-family: 'Inter', sans-serif;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+/* Back button */
+.back-button {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.back-link {
+  color: #00a6f6;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #0085c4;
+  text-decoration: underline;
+}
+
+/* Layout flex row */
+.details-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+/* Image column */
+.image-col {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.car-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.7);
+}
+
+/* Details column */
+.details-col {
+  flex: 1 1 50%;
+}
+
+/* Title & Price */
+.car-title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.car-price {
+  font-weight: 600;
+  font-size: 18px;
+  color: #00a6f6;
+  margin-bottom: 20px;
+}
+
+/* Specs container */
+.specs-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+/* Each spec box */
+.spec-box {
+  flex: 1 1 30%;
+  background-color: #1f2838;
+  padding: 15px 12px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #d3dbe7;
+  transition: background-color 0.3s ease;
+}
+
+.spec-box:hover {
+  background-color: #2b3950;
+}
+
+.spec-box h5 {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 7px;
+  color: #ffffff;
+}
+
+.spec-box p {
+  font-size: 13px;
+  color: #a0a9bf;
+  margin: 0;
+}
+
+/* Description */
+.description-section h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.description-section p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #cfd8f4;
+  margin-bottom: 0;
+}
+
+/* Enquire Button */
+.enquire-btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #00a6f6;
+  color: white;
+  padding: 12px 30px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: background-color 0.25s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.enquire-btn:hover {
+  background-color: #0085c4;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .details-row {
+    flex-direction: column;
+  }
+
+  .spec-box {
+    flex-basis: 100%;
+  }
+
+  .image-col, .details-col {
+    flex-basis: 100%;
+  }
+}

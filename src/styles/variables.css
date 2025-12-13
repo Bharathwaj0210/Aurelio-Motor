@@ -1,0 +1,25 @@
+:root {
+  --primary: #00a6f6;
+  --primary-hover: #0085c4;
+    --dark-bg: #0b0f14;
+  --text: #e0e8f3;
+  --muted: #9aa8b9;
+
+  --black: #0a0a0a;
+  --dark-gray: #141414;
+  --medium-gray: #1d1d1d;
+  --light-gray: #dcdcdc;
+
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --shadow-soft: 0 4px 12px rgba(255, 255, 255, 0.06);
+  --shadow-strong: 0 8px 20px rgba(0, 0, 0, 0.6);
+
+  --radius: 12px;
+  --radius-lg: 18px;
+
+  --transition-fast: 0.2s ease-in-out;
+  --transition-slow: 0.35s ease;
+  
+}

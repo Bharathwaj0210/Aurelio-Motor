@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# 🚗 Aurelio Motors – Electric Vehicle Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a frontend React project created for **Aurelio Motors**, a fictional electric vehicle brand.
+The website focuses on a modern **dark theme**, smooth UI, and a clean browsing experience for EV models.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+* Modern dark UI inspired by premium car brands
+* Home page with hero carousel and featured models
+* Models page with search, price, and range filters
+* Detailed model pages with specifications
+* Enquiry form with validation and glass-effect design
+* Fully responsive layout
+* Clean folder structure with standalone CSS per page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+* **React**
+* **React Router**
+* **Bootstrap**
+* **Custom CSS (dark theme)**
+* **JSON mock data**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure (Short Overview)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+├── components/      # Reusable UI components
+├── pages/           # Home, Models, About, Enquire, Details
+├── hooks/           # Custom hooks (data fetching)
+├── api/             # cars.json (mock data)
+├── styles/          # Standalone CSS files
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Images are stored in the **public/** folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Start the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+The app will run at:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+http://localhost:3000
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🧪 Data Source
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Car data is loaded from:
 
-### Analyzing the Bundle Size
+```
+src/api/cars.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+No backend or API is required for this project.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎨 Design Notes
 
-### Advanced Configuration
+* Dark theme for better focus and premium feel
+* Clear typography with readable text sizes
+* Glassmorphism used in enquiry form
+* Minimal animations to keep it smooth
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📌 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Backend integration for enquiries
+* User authentication
+* Admin dashboard
+* Performance optimizations
+* SEO improvements
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 License
+
+This project is created for learning and demonstration purposes.
+
+---
+
+### 👤 Author
+
+Designed and developed with attention to detail and UI clarity.
+
+---
+

@@ -1,0 +1,226 @@
+/* -----------------------------------------
+   MODELS PAGE LAYOUT
+----------------------------------------- */
+.models-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.models-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.models-subtitle {
+  font-size: 14px;
+  color: #9aa8b9;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* -----------------------------------------
+   FILTER CARD
+----------------------------------------- */
+.filter-card {
+  background: #171c23;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  color: #d3dbe7;
+}
+
+.filter-card label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #e7eef9;
+}
+
+.filter-card select,
+.filter-card input {
+  background: #0f131a;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #f1f5fc;
+  font-size: 13px;
+  padding: 9px 12px;
+  border-radius: 6px;
+  width: 100%;
+  transition: 0.25s ease;
+}
+
+.filter-card select:focus,
+.filter-card input:focus {
+  border-color: #00a6f6;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 166, 246, 0.25);
+}
+
+.filter-row {
+  margin-top: 10px;
+}
+
+/* -----------------------------------------
+   CAR GRID
+----------------------------------------- */
+.car-grid {
+  margin-top: 20px;
+}
+
+/* -----------------------------------------
+   CAR CARD (Improved visibility)
+----------------------------------------- */
+.car-card {
+  background: #1b212a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+  height: 100%;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  border-color: #00a6f6;
+  box-shadow: 0 8px 24px rgba(0, 166, 246, 0.2);
+}
+
+/* Image */
+.car-card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Card Body */
+.car-card-body {
+  padding: 16px;
+}
+
+/* Title */
+.car-card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+/* Price */
+.car-card-price {
+  font-size: 14px;
+  font-weight: 600;
+  color: #00a6f6;
+  margin-bottom: 14px;
+}
+
+/* Button */
+.car-card-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #00a6f6;
+  color: white !important;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.car-card-btn:hover {
+  background: #0085c4;
+}
+
+/* No Results */
+.no-results {
+  font-size: 16px;
+  color: #9ab0c7;
+  text-align: center;
+  margin-top: 40px;
+}
+/* -----------------------------------------
+   FILTER CARD STYLING (CarFilter component)
+----------------------------------------- */
+
+.card.p-3 {
+  background: #171c23; /* dark background */
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  color: #d3dbe7;
+}
+
+/* Labels */
+.card.p-3 label {
+  color: #e7eef9;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Inputs & Selects */
+.card.p-3 .form-control,
+.card.p-3 .form-select {
+  background: #0f131a;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #f1f5fc;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  width: 100%;
+  transition: 0.25s ease;
+}
+
+/* Focus states */
+.card.p-3 .form-control:focus,
+.card.p-3 .form-select:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 166, 246, 0.25);
+}
+
+/* Row spacing inside filter */
+.card.p-3 .row > [class*='col-'] {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* Clear Filters Button */
+.card.p-3 .btn-outline-secondary {
+  width: 140px; /* reasonable fixed width */
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #9aa8b9;
+  border-color: #3a3f4b;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: block;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.card.p-3 .btn-outline-secondary:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .card.p-3 .row > [class*='col-'] {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .card.p-3 .btn-outline-secondary {
+    width: 100%; /* full width on small screens */
+  }
+}
